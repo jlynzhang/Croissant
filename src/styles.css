@@ -1,0 +1,30 @@
+:root {
+  --background-color: #f8cc9c;
+  --links-color: #7a4c3d;
+  --about-paragraphs: #d7904e59;
+}
+body {
+  padding-top: 50px;
+  text-align: center;
+  background-color: var(--background-color);
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1;
+  background: var(--about-paragraphs);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+a {
+  color: var(--links-color);
+}
+
+.croissant-image {
+    max-width: 100%;
+}
